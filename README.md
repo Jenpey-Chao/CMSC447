@@ -3,6 +3,7 @@ i used Flask, flask_sqlalchemy, html. css, virtualenv.
 * pip install virtualenv
 * pip install flask
 * pip install Flask-SQLAlchemy
+* go to the project folder and "py -3 -m venv venv" in cmd to be able to use venv
 
 
 to make the db.sqlite file
