@@ -10,7 +10,7 @@ to make the db.sqlite file
 * then the file should appear in the folder where the project is 
 
 TO RUN THE WEBSITE:
-* 1)cd into the folder
+* 1) cd into the folder
 * 2) venv\Scripts\activate
 * 3) set FLASK_APP=newproj
 * 4) set FLASK_ENV=1
