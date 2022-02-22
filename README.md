@@ -17,7 +17,7 @@ to make the db.sqlite file
 TO RUN THE WEBSITE(for windows):
 * 1) cd into the folder
 * 2) venv\Scripts\activate
-* 3) set FLASK_APP=__ init__.py (remove the space)
+* 3) set FLASK_APP=__ init__.py (remove the space between _ and init)
 * 4) set FLASK_ENV=1
 * 5) flask run
 * 6) then it should tell you where its running on
