@@ -1,5 +1,9 @@
 # CMSC447 CRUD
-i used Flask, flask_sqlalchemy, html. css.
+i used Flask, flask_sqlalchemy, html. css, virtualenv.
+* pip install virtualenv
+* pip install flask
+* pip install Flask-SQLAlchemy
+
 
 to make the db.sqlite file
 * open cmd
