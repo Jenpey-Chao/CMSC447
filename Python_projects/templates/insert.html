@@ -1,0 +1,45 @@
+{% extends "base.html" %} {% block head %} {{ super() }}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename= 'extended_beauty.css') }}"
+/>
+{% endblock %} {% block content %}
+<div class="col-md-4 col-md-offset-4">
+    <form method="POST" action="/insert">
+        <h2>Insert Data</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    id="name" 
+                    name="name"
+                    placeholder="Enter name"
+                />
+            </div>
+            <div class="form-group">
+                <label for="ids">Id</label>
+                <input 
+                    type="ids" 
+                    class="form-control" 
+                    id="ids" 
+                    name="ids"
+                    placeholder="Enter Id"
+                />
+            </div>
+            <div class="form-group">
+                <label for="points">Points</label>
+                <input 
+                    type="points" 
+                    class="form-control" 
+                    id="points" 
+                    name="points"
+                    placeholder="Enter Points"
+                />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </form>
+</div>
+{% endblock %}

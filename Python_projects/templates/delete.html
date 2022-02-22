@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block head %} {{ super() }}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename= 'extended_beauty.css') }}"
+/>
+{% endblock %} {% block content %} 
+
+<div class="col-md-4 col-md-offset-4">
+    <form method="POST" action="/delete">
+        <h2>Delete Data</h2>
+        <form>
+            <div class="form-group">
+                <label for="ids">ID</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    id="ids" 
+                    name="ids"
+                    placeholder="Enter their Id"
+                />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </form>
+</div>
+
+{% endblock %}
