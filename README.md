@@ -5,6 +5,9 @@ i used Flask, flask_sqlalchemy, html. css, virtualenv.
 * pip install Flask-SQLAlchemy
 * go to the project folder and "py -3 -m venv venv" in cmd to be able to use venv
 
+**Every students ID should be unique**
+**If you insert a students id thats already in the database, it will change the name and score**
+
 
 to make the db.sqlite file
 * open cmd
